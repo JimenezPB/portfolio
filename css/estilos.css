@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+}
+.cabecera{
+    background-color: tomato;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.textos-cabecera{
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+	position: bottom;
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0);
+    position: fixed;
+    top: 0;
+   
+}
+
+/* Navbar links */
+#navbar a {
+    position: absolute;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+    width: co;
+}
