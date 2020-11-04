@@ -13,7 +13,6 @@ html{
 }
 
 .cabecera{
-    background-color: rgb(21, 134, 226);
     font-family: 'Raleway', sans-serif;
     font-size: x-large;
     width: 100%;
@@ -46,22 +45,40 @@ svg{
     filter: drop-shadow(0px 0px 13px  rgba(0, 0, 0))
 }
 
-/* Style the navbar */
-#navbar {
-    overflow: hidden;
-    background-color: rgba(51, 51, 51, 0);
-    position: fixed;
-    top: 0;
-   
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
-/* Navbar links */
-#navbar a {
-    position: absolute;
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    position: fixed;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
     display: block;
-    color: #000000;
+    color: #f2f2f2;
     text-align: center;
-    padding: 19px;
+    padding: 14px 16px;
     text-decoration: none;
-    width: co;
-}
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
