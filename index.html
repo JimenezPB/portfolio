@@ -1,82 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/estilos.css">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-  <title>Borja Jiménez Peñuela</title>
-</head>
-
-<body id="body">
-  <div class="website">
-
- 
-  <div class="topnav" id="myTopnav">
-    <a href="#Inicio">INICIO</a>
-    <a href="#SobreMi">SOBRE MI</a>
-    <a href="#Proyectos">PROYECTOS</a>
-    <a href="#Contacto">CONTACTO</a>
-    
-  </div>
-
-  <header class="cabecera">
-
-    <div class="textos-cabecera">
-      <h1>Borja Jiménez Peñuela</h1>
-      <p>Estudiante de Ingeniería Informática</p>
-    </div>
-    <section class="wave">
-      <div style="height: 150px; overflow: inherit;">
-        <svg class="wave" viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-          <path d="M0.00,49.99 C130.02,214.44 304.96,-90.49 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
-            style="stroke: none; fill: #fff;">
-          </path>
-        </svg>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="assets/js/translate.js"></script>
+    <title>Borja Jiménez Peñuela</title> 
+  </head>
+  <body id="body">
+    <div class="container">
+      <div class="panel">
+        <div class="options">
+          <a href="index.html" onclick="changeLanguage('en')" class="flag"><img src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="25"></a>
+          <a href="index.html" onclick="changeLanguage('es')" class="flag"><img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="25"></a>
+        </div>
+        <a href="index.html#name">BORJA</a>
+        <a href="index.html#about-me" data-i18n="about-me"></a>
+        <!-- <a href="index.html#projects" data-i18n="projects"></a> -->
+        <a href="index.html#experience" data-i18n="experience"></a>
+        <a href="index.html#education" data-i18n="education"></a>
+        <a href="index.html#skills" data-i18n="skills"></a>
+        <a href="index.html#contact" data-i18n="contact"></a>
       </div>
-    </section>
-  </header>
-
-  <section class="wave contenedor website">
-    <div class="contenedor">
-      <h2 class="titulo left"></h2>
-      <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis vel libero id
-        sollicitudin. Pellentesque pellentesque rhoncus lacus sit amet.</p>
+      <div class="content">
+        <div id="name">
+          <h1 class="title">BORJA JIMÉNEZ PEÑUELA</h1>
+          <h3 class="subtitle">Full Stack Developer</h3>
+        </div>
+        <div id="about-me">
+        </div>
+        <!-- <div id="projects">
+        </div> -->
+        <div id="experience">
+        </div>
+        <div id="education">
+        </div>
+        <div id="skills">
+        </div>
+        <div id="contact">
+        </div>
+      </div>
     </div>
-  </section>
-
-  <section class="wave">
-    <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-        style="height: 100%; width: 100%;">
-        <path d="M0.00,49.99 C109.70,12.14 245.14,174.96 500.00,49.99 L500.00,0.00 L0.00,0.00 Z"
-          style="stroke: none; fill: #fff;"></path>
-      </svg></div>
-  </section>
-
-  <section class="info">
-    <div class="contenedor">
-      <h2 class="titulo left"></h2>
-      <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis vel libero id
-        sollicitudin. Pellentesque pellentesque rhoncus lacus sit amet.</p>
-    </div>
-  </section>
-
-  <section class="cards contenedor" id="Proyectos">
-    <h2 class="titulo">Proyectos</h2>
-    <div class="content cards">
-      <article class="card">
-        <i class="far fa-clone"></i>
-        <h3>Tittle Card</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        <a href="" class="cta">Learn More</a>
-      </article>
-    </div>
-  </section>
-</div>
-<script src="script.js"></script>
-<script src="https://kit.fontawesome.com/bf16d0cf69.js" crossorigin="anonymous"></script>
-</body>
-
+  </body>
 </html>
