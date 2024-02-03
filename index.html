@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <script src="assets/js/translate.js"></script>
     <title>Borja Jiménez Peñuela</title> 
   </head>
@@ -18,33 +19,40 @@
     <div class="container">
       <div class="panel">
         <div class="options">
-          <a href="index.html" onclick="changeLanguage('en')" class="flag"><img src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="25"></a>
-          <a href="index.html" onclick="changeLanguage('es')" class="flag"><img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="25"></a>
+          <a href="/" onclick="changeLanguage('es')" class="flag"><img src="assets/images/es.svg" width="25"></a>
+          <a href="/" onclick="changeLanguage('en')" class="flag"><img src="assets/images/gb.svg" width="25"></a>
         </div>
-        <a href="index.html#name">BORJA</a>
-        <a href="index.html#about-me" data-i18n="about-me"></a>
+        <a href="/#name">BORJA</a>
+        <a href="/#about-me" data-i18n="about-me"></a>
         <!-- <a href="index.html#projects" data-i18n="projects"></a> -->
-        <a href="index.html#experience" data-i18n="experience"></a>
-        <a href="index.html#education" data-i18n="education"></a>
-        <a href="index.html#skills" data-i18n="skills"></a>
-        <a href="index.html#contact" data-i18n="contact"></a>
+        <a href="/#experience" data-i18n="experience"></a>
+        <a href="/#education" data-i18n="education"></a>
+        <a href="/#skills" data-i18n="skills"></a>
+        <a href="/#contact" data-i18n="contact"></a>
       </div>
       <div class="content">
         <div id="name">
           <h1 class="title">BORJA JIMÉNEZ PEÑUELA</h1>
           <h3 class="subtitle">Full Stack Developer</h3>
         </div>
-        <div id="about-me">
+        <div id="about-me" class="section">
+          <h1 data-i18n="about-me"></h1>
+          <p data-i18n="about-me-text"></p>
+          <p data-i18n="about-me-text-2"></p>
         </div>
         <!-- <div id="projects">
         </div> -->
-        <div id="experience">
+        <div id="experience" class="section">
+          <h1 data-i18n="experience"></h1>
         </div>
-        <div id="education">
+        <div id="education" class="section">
+          <h1 data-i18n="education"></h1>
         </div>
-        <div id="skills">
+        <div id="skills" class="section">
+          <h1 data-i18n="skills"></h1>
         </div>
-        <div id="contact">
+        <div id="contact" class="section">
+          <h1 data-i18n="contact"></h1>
         </div>
       </div>
     </div>

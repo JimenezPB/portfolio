@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", async () => {
-  const userPreferredLanguage = localStorage.getItem("language") || "en";
+  const userPreferredLanguage = localStorage.getItem("language") || "es";
   const langData = await fetchLanguageData(userPreferredLanguage);
   updateContent(langData);
 });
@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 function updateContent(langData) {
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.getAttribute("data-i18n");
-    element.textContent = langData[key];
+    element.innerHTML = langData[key];
   });
 }
 

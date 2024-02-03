@@ -75,8 +75,23 @@ body {
 }
 
 #name {
-    height: 99vh;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me, #experience, #education, #skills, #contact {
+    border-top: solid 1px var(--bg-300);
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 25px;
+    color: var(--primary-200);
+    text-align: justify;
+
+    h1{
+        color: var(--accent-100);
+    }
 }

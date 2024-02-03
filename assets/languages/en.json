@@ -4,5 +4,7 @@
     "experience": "EXPERIENCE",
     "education": "EDUCATION",
     "skills": "SKILLS",
-    "contact": "CONTACT" 
+    "contact": "CONTACT",
+    "about-me-text": "En 2016 empecé mis estudios en <b>Ingeniería informática<\/b> sin saber muy bien qué me iba a encontrar. Hoy unos cuantos años después, la programación no es solo mi trabajo sino también mi <b>pasión<\/b>.",
+    "about-me-text-2": "Desde que empezó mi carrera profesional he estado desempeñando la posición de programador Full Stack aunque siempre he sentido una especial atracción por la parte Front End. Por esa razón, dedico tiempo para aprender más sobre esta posición en mi tiempo libre."
 }
