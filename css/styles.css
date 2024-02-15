@@ -11,6 +11,18 @@
     --bg-300:#435847;
 }
 
+/* .theme {
+    color: #f63b45;
+    background-color: #021326;
+  } 
+  
+  .theme-alt {
+  color: #021326;
+  background-color: #f63b45;
+}
+
+*/
+
 .panel {
     width: 20%;
     display: flex;
@@ -35,12 +47,13 @@
     flex-direction: row;
     justify-content: space-around;
     width: 5%;
+    
+    img {
+        border: 3px solid white;
+        border-radius: 50%;
+    }
 }
 
-img {
-    border: 3px solid white;
-    border-radius: 50%;
-}
 
 .content {
     height: 100vh;
@@ -93,5 +106,46 @@ body {
 
     h1{
         color: var(--accent-100);
+    }
+}
+
+.experience-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-header {
+    display: flex;
+    flex-direction: row;
+    h3, h4{
+        margin: 0px;
+    }
+    
+    .experience-logo{
+        border-radius: 10px;
+        width: 8vh;
+        height: 8vh;
+        margin-right: 20px;
+    }
+}
+
+.experience-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.education-header {
+    display: flex;
+    flex-direction: row;
+    h3, h4{
+        margin: 0px;
+    }
+    
+    .education-logo{
+        border-radius: 10px;
+        width: 8vh;
+        height: 8vh;
+        margin-right: 20px;
     }
 }

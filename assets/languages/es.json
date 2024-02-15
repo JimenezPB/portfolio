@@ -5,6 +5,16 @@
     "education": "EDUCACIÓN",
     "skills": "HABILIDADES",
     "contact": "CONTACTO", 
-    "about-me-text": "En <b>2016</b> empecé mis estudios en <b>Ingeniería informática</b> sin saber muy bien qué me iba a encontrar. Hoy, unos cuantos años después, la programación no es solo se ha convertido en mi trabajo sino también mi <b>pasión</b>.",
-    "about-me-text-2": "Desde que empezó mi carrera profesional, hace ya <b>3 años</b>, he estado desempeñando la posición de programador <b>Full Stack</b> aunque siempre he sentido una especial atracción por la parte <b>Front End</b>. Por esa razón, dedico tiempo para <b>aprender más</b> sobre esta posición en mi tiempo libre."
+    "about-me-text": "En <b>2016</b> empecé mis estudios en <b>Ingeniería informática</b> sin saber muy bien qué me iba a encontrar. Hoy, unos cuantos años después, la programación no solo se ha convertido en mi trabajo sino también mi <b>pasión</b>.",
+    "about-me-text-2": "Desde que empezó mi carrera profesional, hace ya <b>3 años</b>, he estado desempeñando la posición de programador <b>Full Stack</b> aunque siempre he sentido una especial atracción por la parte <b>Front End</b>. Por esa razón, dedico tiempo para <b>aprender más</b> sobre esta posición en mi tiempo libre.",
+    "avanade-exp": "<li>Desarrollo de nuevas funcionalidades de la aplicación web de una entidad bancaria.</li><li>Arquitectura de microservicios.</li><li>Creación de componentes frontend.</li><li>Creación de bases de datos y procedimientos almacenados mediante SQL Server usando Microsoft SQL Server Management Studio.</li><li>Metodología SCRUM.</li><li>Control de versiones con Git.</li>",
+    "torrecid-exp": "<li>Desarrollo y mantenimiento correctivo de aplicaciones web con Angular, Typescript, Javascript y NgZorro como biblioteca de componentes. Uso de Less como lenguaje para las hojas de estilo.</li><li>Desarrollo de APIs RESTful con ASP.NET Core 6 y C#.</li><li>Desarrollo y mantenimiento de aplicaciones de escritorio con Windows Forms y Visual Basic.</li><li>Soporte de funciones DevOps para el mantenimiento de CI/CD con Docker, Swarmpit, Nginx y Jenkins.</li><li>Mantenimiento de base de datos Oracle.</li><li>Uso de metodologías Agile y principios SOLID.</li><li>Control de versiones con Git.</li>",
+    "torrecid2-exp": "<li>Desarrollo y mantenimiento correctivo de aplicaciones web con Angular, Typescript, Javascript y NgZorro como biblioteca de componentes. Uso de Less como lenguaje para las hojas de estilo.</li>",
+    "intern": "Prácticas",
+    "may": "Mayo",
+    "september": "Septiembre",
+    "october": "Octubre",
+    "february": "Febrero",
+    "present": "Actualidad",
+    "degree": "Ingeniería informática"
 }

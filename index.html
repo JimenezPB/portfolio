@@ -19,19 +19,20 @@
     <div class="container">
       <div class="panel">
         <div class="options">
-          <a href="/" onclick="changeLanguage('es')" class="flag"><img src="assets/images/es.svg" width="25"></a>
-          <a href="/" onclick="changeLanguage('en')" class="flag"><img src="assets/images/gb.svg" width="25"></a>
+          <a href="/" onclick="changeLanguage('es')"><img src="assets/images/es.svg" width="25"></a>
+          <a href="/" onclick="changeLanguage('en')"><img src="assets/images/gb.svg" width="25"></a>
         </div>
-        <a href="/#name">BORJA</a>
-        <a href="/#about-me" data-i18n="about-me"></a>
+        <a href="/index.html#name">BORJA</a>
+        <a href="/index.html#about-me" data-i18n="about-me"></a>
         <!-- <a href="index.html#projects" data-i18n="projects"></a> -->
-        <a href="/#experience" data-i18n="experience"></a>
-        <a href="/#education" data-i18n="education"></a>
-        <a href="/#skills" data-i18n="skills"></a>
-        <a href="/#contact" data-i18n="contact"></a>
+        <a href="/index.html#experience" data-i18n="experience"></a>
+        <a href="/index.html#education" data-i18n="education"></a>
+        <a href="/index.html#skills" data-i18n="skills"></a>
+        <a href="/index.html#contact" data-i18n="contact"></a>
       </div>
       <div class="content">
         <div id="name">
+          <!-- animacion nombre https://codepen.io/jascha/pen/BrVepZ  //  https://codepen.io/yemon/pen/dzgmxJ-->
           <h1 class="title">BORJA JIMÉNEZ PEÑUELA</h1>
           <h3 class="subtitle">Full Stack Developer</h3>
         </div>
@@ -44,9 +45,70 @@
         </div> -->
         <div id="experience" class="section">
           <h1 data-i18n="experience"></h1>
+          <!-- AVANADE -->
+          <div class="experience-container">
+            <div class="experience-header-container">
+              <div class="experience-header">
+                <img src="assets/images/avanade.png" class="experience-logo">
+                <div>
+                  <h3>Full Stack Developer</h3>
+                  <h4>Avanade</h4>
+                </div>
+              </div>
+              <div>
+                <span data-i18n="october"></span> 2023 - <span data-i18n="present"></span>
+              </div>
+            </div>
+            <ul>
+              <span data-i18n="avanade-exp" class="experience-element"></span>
+            </ul>
+          </div>
+          <!-- TORRECID -->
+          <div class="experience-container">
+            <div class="experience-header-container">
+              <div class="experience-header">
+                <img src="assets/images/torrecid.png" class="experience-logo">
+                <div>
+                  <h3>Full Stack Developer</h3>
+                  <h4>Torrecid</h4>
+                </div>
+              </div>
+              <div>
+                <span data-i18n="may"></span> 2021 - <span data-i18n="september"></span> 2023
+              </div>
+            </div>
+            <ul>
+              <span data-i18n="torrecid-exp" class="experience-element"></span>
+            </ul>
+          </div>
+          <!-- TORRECID 2 -->
+          <div class="experience-container">
+            <div class="experience-header-container">
+              <div class="experience-header">
+                <img src="assets/images/torrecid.png" class="experience-logo">
+                <div>
+                  <h3 data-i18n="intern"></h3>
+                  <h4>Torrecid</h4>
+                </div>
+              </div>
+              <div>
+                <span data-i18n="february"></span> 2021 - <span data-i18n="september"></span> 2023
+              </div>
+            </div>
+            <ul>
+              <span data-i18n="torrecid-exp" class="experience-element"></span>
+            </ul>
+          </div>
         </div>
         <div id="education" class="section">
           <h1 data-i18n="education"></h1>
+          <div class="education-header">
+            <img src="assets/images/uji.jpg" class="education-logo">
+            <div>
+              <h3 data-i18n="degree"></h3>
+              <h4>Universitat Jaume I</h4>
+            </div>
+          </div>
         </div>
         <div id="skills" class="section">
           <h1 data-i18n="skills"></h1>
