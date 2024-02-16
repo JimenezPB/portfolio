@@ -1,0 +1,55 @@
+.green-theme-dark{
+    --primary-100:#3D6B4F;
+    --primary-200:#6a997b;
+    --primary-300:#cafedc;
+    --accent-100:#8CBF9F;
+    --accent-200:#316145;
+    --text-100:#FFFFFF;
+    --text-200:#e0e0e0;
+    --bg-100:#1B2F20;
+    --bg-200:#2a3f2f;
+    --bg-300:#435847;
+}
+
+.blue-theme-dark {
+    --primary-100:#0074D9;
+    --primary-200:#5fa2ff;
+    --primary-300:#d1ffff;
+    --accent-100:#7FDBFF;
+    --accent-200:#007a9b;
+    --text-100:#FFFFFF;
+    --text-200:#e0e0e0;
+    --bg-100:#001F3F;
+    --bg-200:#162e50;
+    --bg-300:#31466a;
+}
+
+.blue-theme-light{
+    --primary-100:#66B2FF;
+    --primary-200:#4295e0;
+    --primary-300:#00579a;
+    --accent-100:#33CCFF;
+    --accent-200:#006d9b;
+    --text-100:#333333;
+    --text-200:#5c5c5c;
+    --bg-100:#E6F2FF;
+    --bg-200:#dce8f5;
+    --bg-300:#b4bfcc;
+}
+
+
+.circle-green {
+    width: 200px; /* Cambia el tamaño del círculo ajustando este valor */
+    height: 100px; /* Cambia el tamaño del círculo ajustando este valor */
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+    background-color: green; /* Color de fondo verde */
+    border: 2px solid white; /* Borde blanco de 2px */
+}
+
+.circle-blue {
+    width: 200px; /* Cambia el tamaño del círculo ajustando este valor */
+    height: 100px; /* Cambia el tamaño del círculo ajustando este valor */
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+    background-color: blue; /* Color de fondo verde */
+    border: 2px solid white; /* Borde blanco de 2px */
+}

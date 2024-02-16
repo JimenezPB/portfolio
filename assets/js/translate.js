@@ -1,6 +1,19 @@
+const defaultLanguage = "es"
+
 window.addEventListener("DOMContentLoaded", async () => {
-  const userPreferredLanguage = localStorage.getItem("language") || "es";
+  const userPreferredLanguage = localStorage.getItem("language") || defaultLanguage;
+  const es = document.getElementById('es');
+  const gb = document.getElementById('gb');
+
+  if(userPreferredLanguage === 'es'){
+    gb.style.display = 'block';
+    es.style.display = 'none';
+  }else{
+    es.style.display = 'block';
+    gb.style.display = 'none';
+  }
   const langData = await fetchLanguageData(userPreferredLanguage);
+
   updateContent(langData);
 });
 

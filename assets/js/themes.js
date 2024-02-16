@@ -1,19 +1,34 @@
+const defaultColor = "blue"
+const defaultStyle = "dark"
+const defaultTheme = "blue-theme-dark"
+
 window.addEventListener("DOMContentLoaded", async () => {
-    const userPreferredTheme = localStorage.getItem("theme") || "blue";
-    const langData = await fetchThemeData(userPreferredTheme);
-    updateContent(langData);
+    const body = document.getElementById("body");
+
+    const userPreferredColor = localStorage.getItem("color") || defaultColor;
+    const userPreferredStyle = localStorage.getItem("style") || defaultStyle;
+
+    const themes = await fetchThemes(userPreferredColor);
+    const className = getTheme(themes, userPreferredColor, userPreferredStyle);
+
+    body.className = className ?? defaultTheme
 });
 
-
-function updateContent(langData) {
-    document.querySelectorAll("[data-i18n]").forEach((element) => {
-        const key = element.getAttribute("data-i18n");
-        element.innerHTML = langData[key];
-    });
+function getTheme(themes, color, style){
+    return themes[color][style];
 }
 
-async function fetchThemeData(lang) {
-    const response = await fetch(`assets/languages/${lang}.json`);
+async function fetchThemes() {
+    const response = await fetch(`assets/themes/themes.json`);
     return response.json();
-  }
-  
+}
+
+function setColorPreference(color) {
+    localStorage.setItem("color", color);
+    location.reload();
+}
+
+function setStylePreference(style) {
+    localStorage.setItem("style", style);
+    location.reload();
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/themes.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,14 +14,17 @@
     />
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <script src="assets/js/translate.js"></script>
+    <script src="assets/js/themes.js"></script>
     <title>Borja Jiménez Peñuela</title> 
   </head>
   <body id="body">
     <div class="container">
       <div class="panel">
         <div class="options">
-          <a href="/" onclick="changeLanguage('es')"><img src="assets/images/es.svg" width="25"></a>
-          <a href="/" onclick="changeLanguage('en')"><img src="assets/images/gb.svg" width="25"></a>
+          <a href="/" onclick="changeLanguage('es')" id='es'><img src="assets/images/es.svg" width="25"></a>
+          <a href="/" onclick="changeLanguage('en')" id='gb'><img src="assets/images/gb.svg" width="25"></a>
+          <div class="circle-green" onclick="setColorPreference('green')"></div>
+          <div class="circle-blue" onclick="setColorPreference('blue')"></div>
         </div>
         <a href="/index.html#name">BORJA</a>
         <a href="/index.html#about-me" data-i18n="about-me"></a>

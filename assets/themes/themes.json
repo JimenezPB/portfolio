@@ -1,34 +1,22 @@
 {
     "blue": {
-        "light": {
-
-        },
-        "dark": {
-
-        }
-    },
-    "red": {
-        "light": {
-
-        },
-        "dark": {
-
-        }
-    },
-    "orange": {
-        "light": {
-
-        },
-        "dark": {
-
-        }
+        "light": "blue-theme-light",
+        "dark": "blue-theme-dark"
     },
     "green": {
-        "light": {
-
-        },
-        "dark": {
-
-        }
+        "light": "green-theme-light",
+        "dark": "green-theme-dark"
+    },
+    "red": {
+        "light": "red-theme-light",
+        "dark": "red-theme-dark"
+    },
+    "yellow": {
+        "light": "yellow-theme-light",
+        "dark": "yellow-theme-dark"
+    },
+    "orange": {
+        "light": "orange-theme-light",
+        "dark": "orange-theme-dark"
     }
 }
