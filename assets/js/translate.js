@@ -6,11 +6,11 @@ window.addEventListener("DOMContentLoaded", async () => {
   const gb = document.getElementById('gb');
 
   if(userPreferredLanguage === 'es'){
-    gb.style.display = 'block';
-    es.style.display = 'none';
+    gb.className = 'option';
+    es.className = 'hide-option';
   }else{
-    es.style.display = 'block';
-    gb.style.display = 'none';
+    es.className = 'option';
+    gb.className = 'hide-option';
   }
   const langData = await fetchLanguageData(userPreferredLanguage);
 

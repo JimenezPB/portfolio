@@ -1,126 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/themes.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
-    <script src="assets/js/translate.js"></script>
-    <script src="assets/js/themes.js"></script>
-    <title>Borja Jiménez Peñuela</title> 
-  </head>
-  <body id="body">
-    <div class="container">
-      <div class="panel">
-        <div class="options">
-          <a href="/" onclick="changeLanguage('es')" id='es'><img src="assets/images/es.svg" width="25"></a>
-          <a href="/" onclick="changeLanguage('en')" id='gb'><img src="assets/images/gb.svg" width="25"></a>
-          <div class="circle-green" onclick="setColorPreference('green')"></div>
-          <div class="circle-blue" onclick="setColorPreference('blue')"></div>
-        </div>
-        <a href="/index.html#name">BORJA</a>
-        <a href="/index.html#about-me" data-i18n="about-me"></a>
-        <!-- <a href="index.html#projects" data-i18n="projects"></a> -->
-        <a href="/index.html#experience" data-i18n="experience"></a>
-        <a href="/index.html#education" data-i18n="education"></a>
-        <a href="/index.html#skills" data-i18n="skills"></a>
-        <a href="/index.html#contact" data-i18n="contact"></a>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+  <script src="assets/js/translate.js"></script>
+  <script src="assets/js/themes.js"></script>
+  <title>Borja Jiménez Peñuela</title>
+</head>
+
+<body id="body">
+  <div class="container">
+    <div class="panel">
+      <div class="options">
+        <a href="/" onclick="changeLanguage('es')" id='es'><img src="assets/images/es.svg" width="25"></a>
+        <a href="/" onclick="changeLanguage('en')" id='gb'><img src="assets/images/gb.svg" width="25"></a>
+        <a class="svg option" id="palette" onclick="changeLanguage('en')">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" /><path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>
+        </a>
+        <a class="svg option" id="sun" onclick="changeLanguage('en')">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
+        </a>
+        <a class="svg option" id="moon" onclick="changeLanguage('en')">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /></svg>
+        </a>        
       </div>
-      <div class="content">
-        <div id="name">
-          <!-- animacion nombre https://codepen.io/jascha/pen/BrVepZ  //  https://codepen.io/yemon/pen/dzgmxJ-->
-          <h1 class="title">BORJA JIMÉNEZ PEÑUELA</h1>
-          <h3 class="subtitle">Full Stack Developer</h3>
-        </div>
-        <div id="about-me" class="section">
-          <h1 data-i18n="about-me"></h1>
-          <p data-i18n="about-me-text"></p>
-          <p data-i18n="about-me-text-2"></p>
-        </div>
-        <!-- <div id="projects">
+      <a href="/index.html#name">BORJA</a>
+      <a href="/index.html#about-me" data-i18n="about-me"></a>
+      <!-- <a href="index.html#projects" data-i18n="projects"></a> -->
+      <a href="/index.html#experience" data-i18n="experience"></a>
+      <a href="/index.html#education" data-i18n="education"></a>
+      <a href="/index.html#skills" data-i18n="skills"></a>
+      <a href="/index.html#contact" data-i18n="contact"></a>
+    </div>
+    <div class="content">
+      <div id="name">
+        <!-- animacion nombre https://codepen.io/jascha/pen/BrVepZ  //  https://codepen.io/yemon/pen/dzgmxJ-->
+        <h1 class="title">BORJA JIMÉNEZ PEÑUELA</h1>
+        <h3 class="subtitle">Full Stack Developer</h3>
+      </div>
+      <div id="about-me" class="section">
+        <h1 data-i18n="about-me"></h1>
+        <p data-i18n="about-me-text"></p>
+        <p data-i18n="about-me-text-2"></p>
+      </div>
+      <!-- <div id="projects">
         </div> -->
-        <div id="experience" class="section">
-          <h1 data-i18n="experience"></h1>
-          <!-- AVANADE -->
-          <div class="experience-container">
-            <div class="experience-header-container">
-              <div class="experience-header">
-                <img src="assets/images/avanade.png" class="experience-logo">
-                <div>
-                  <h3>Full Stack Developer</h3>
-                  <h4>Avanade</h4>
-                </div>
-              </div>
+      <div id="experience" class="section">
+        <h1 data-i18n="experience"></h1>
+        <!-- AVANADE -->
+        <div class="experience-container">
+          <div class="experience-header-container">
+            <div class="experience-header">
+              <img src="assets/images/avanade.png" class="experience-logo">
               <div>
-                <span data-i18n="october"></span> 2023 - <span data-i18n="present"></span>
+                <h3>Full Stack Developer</h3>
+                <h4>Avanade</h4>
               </div>
             </div>
-            <ul>
-              <span data-i18n="avanade-exp" class="experience-element"></span>
-            </ul>
-          </div>
-          <!-- TORRECID -->
-          <div class="experience-container">
-            <div class="experience-header-container">
-              <div class="experience-header">
-                <img src="assets/images/torrecid.png" class="experience-logo">
-                <div>
-                  <h3>Full Stack Developer</h3>
-                  <h4>Torrecid</h4>
-                </div>
-              </div>
-              <div>
-                <span data-i18n="may"></span> 2021 - <span data-i18n="september"></span> 2023
-              </div>
-            </div>
-            <ul>
-              <span data-i18n="torrecid-exp" class="experience-element"></span>
-            </ul>
-          </div>
-          <!-- TORRECID 2 -->
-          <div class="experience-container">
-            <div class="experience-header-container">
-              <div class="experience-header">
-                <img src="assets/images/torrecid.png" class="experience-logo">
-                <div>
-                  <h3 data-i18n="intern"></h3>
-                  <h4>Torrecid</h4>
-                </div>
-              </div>
-              <div>
-                <span data-i18n="february"></span> 2021 - <span data-i18n="september"></span> 2023
-              </div>
-            </div>
-            <ul>
-              <span data-i18n="torrecid-exp" class="experience-element"></span>
-            </ul>
-          </div>
-        </div>
-        <div id="education" class="section">
-          <h1 data-i18n="education"></h1>
-          <div class="education-header">
-            <img src="assets/images/uji.jpg" class="education-logo">
             <div>
-              <h3 data-i18n="degree"></h3>
-              <h4>Universitat Jaume I</h4>
+              <span data-i18n="october"></span> 2023 - <span data-i18n="present"></span>
             </div>
           </div>
+          <ul>
+            <span data-i18n="avanade-exp" class="experience-element"></span>
+          </ul>
         </div>
-        <div id="skills" class="section">
-          <h1 data-i18n="skills"></h1>
+        <!-- TORRECID -->
+        <div class="experience-container">
+          <div class="experience-header-container">
+            <div class="experience-header">
+              <img src="assets/images/torrecid.png" class="experience-logo">
+              <div>
+                <h3>Full Stack Developer</h3>
+                <h4>Torrecid</h4>
+              </div>
+            </div>
+            <div>
+              <span data-i18n="may"></span> 2021 - <span data-i18n="september"></span> 2023
+            </div>
+          </div>
+          <ul>
+            <span data-i18n="torrecid-exp" class="experience-element"></span>
+          </ul>
         </div>
-        <div id="contact" class="section">
-          <h1 data-i18n="contact"></h1>
+        <!-- TORRECID 2 -->
+        <div class="experience-container">
+          <div class="experience-header-container">
+            <div class="experience-header">
+              <img src="assets/images/torrecid.png" class="experience-logo">
+              <div>
+                <h3 data-i18n="intern"></h3>
+                <h4>Torrecid</h4>
+              </div>
+            </div>
+            <div>
+              <span data-i18n="february"></span> 2021 - <span data-i18n="september"></span> 2023
+            </div>
+          </div>
+          <ul>
+            <span data-i18n="torrecid-exp" class="experience-element"></span>
+          </ul>
         </div>
+      </div>
+      <div id="education" class="section">
+        <h1 data-i18n="education"></h1>
+        <div class="education-header">
+          <img src="assets/images/uji.jpg" class="education-logo">
+          <div>
+            <h3 data-i18n="degree"></h3>
+            <h4>Universitat Jaume I</h4>
+          </div>
+        </div>
+      </div>
+      <div id="skills" class="section">
+        <h1 data-i18n="skills"></h1>
+      </div>
+      <div id="contact" class="section">
+        <h1 data-i18n="contact"></h1>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
