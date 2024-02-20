@@ -20,17 +20,21 @@
   <div class="container">
     <div class="panel">
       <div class="options">
-        <a href="/" onclick="changeLanguage('es')" id='es'><img src="assets/images/es.svg" width="25"></a>
-        <a href="/" onclick="changeLanguage('en')" id='gb'><img src="assets/images/gb.svg" width="25"></a>
-        <a class="svg option" id="palette" onclick="changeLanguage('en')">
+        <a onclick="changeLanguage('es')" id='es-icon'><img src="assets/images/es.svg" width="25"></a>
+        <a onclick="changeLanguage('en')" id='gb-icon'><img src="assets/images/gb.svg" width="25"></a>
+        <a class="svg option" id="palette-icon" onclick="showColorPalette()">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" /><path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>
         </a>
-        <a class="svg option" id="sun" onclick="changeLanguage('en')">
+        <a class="svg option" id="sun-icon" onclick="setStylePreference('ligth')">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
         </a>
-        <a class="svg option" id="moon" onclick="changeLanguage('en')">
+        <a class="svg option" id="moon-icon" onclick="setStylePreference('dark')">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /></svg>
         </a>        
+        <div id="color-palette" class="palette-hidden">
+          <a>HOLA</a>
+          <a>ADIOS</a>
+        </div>
       </div>
       <a href="/index.html#name">BORJA</a>
       <a href="/index.html#about-me" data-i18n="about-me"></a>
@@ -42,7 +46,6 @@
     </div>
     <div class="content">
       <div id="name">
-        <!-- animacion nombre https://codepen.io/jascha/pen/BrVepZ  //  https://codepen.io/yemon/pen/dzgmxJ-->
         <h1 class="title">BORJA JIMÉNEZ PEÑUELA</h1>
         <h3 class="subtitle">Full Stack Developer</h3>
       </div>
@@ -91,7 +94,7 @@
             <span data-i18n="torrecid-exp" class="experience-element"></span>
           </ul>
         </div>
-        <!-- TORRECID 2 -->
+        <!-- TORRECID PRACTICAS -->
         <div class="experience-container">
           <div class="experience-header-container">
             <div class="experience-header">

@@ -2,16 +2,9 @@ const defaultLanguage = "es"
 
 window.addEventListener("DOMContentLoaded", async () => {
   const userPreferredLanguage = localStorage.getItem("language") || defaultLanguage;
-  const es = document.getElementById('es');
-  const gb = document.getElementById('gb');
+  
+  changeFlag(userPreferredLanguage);
 
-  if(userPreferredLanguage === 'es'){
-    gb.className = 'option';
-    es.className = 'hide-option';
-  }else{
-    es.className = 'option';
-    gb.className = 'hide-option';
-  }
   const langData = await fetchLanguageData(userPreferredLanguage);
 
   updateContent(langData);
@@ -24,15 +17,13 @@ function updateContent(langData) {
   });
 }
 
-// Function to set the language preference
 function setLanguagePreference(lang) {
   localStorage.setItem("language", lang);
-  location.reload();
 }
 
-// Function to change language
 async function changeLanguage(lang) {
   setLanguagePreference(lang);
+  changeFlag(lang);
 
   const langData = await fetchLanguageData(lang);
   updateContent(langData);
@@ -41,4 +32,17 @@ async function changeLanguage(lang) {
 async function fetchLanguageData(lang) {
   const response = await fetch(`assets/languages/${lang}.json`);
   return response.json();
+}
+
+function changeFlag(userPreferredLanguage){
+  const es = document.getElementById('es-icon');
+  const gb = document.getElementById('gb-icon');
+
+  if(userPreferredLanguage === 'es'){
+    gb.className = 'option';
+    es.className = 'hide-option';
+  }else{
+    es.className = 'option';
+    gb.className = 'hide-option';
+  }
 }
