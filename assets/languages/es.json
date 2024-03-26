@@ -10,11 +10,14 @@
     "avanade-exp": "<li>Desarrollo de nuevas funcionalidades de la aplicación web de una entidad bancaria.</li><li>Arquitectura de microservicios.</li><li>Creación de componentes frontend.</li><li>Creación de bases de datos y procedimientos almacenados mediante SQL Server usando Microsoft SQL Server Management Studio.</li><li>Metodología SCRUM.</li><li>Control de versiones con Git.</li>",
     "torrecid-exp": "<li>Desarrollo y mantenimiento correctivo de aplicaciones web con Angular, Typescript, Javascript y NgZorro como biblioteca de componentes. Uso de Less como lenguaje para las hojas de estilo.</li><li>Desarrollo de APIs RESTful con ASP.NET Core 6 y C#.</li><li>Desarrollo y mantenimiento de aplicaciones de escritorio con Windows Forms y Visual Basic.</li><li>Soporte de funciones DevOps para el mantenimiento de CI/CD con Docker, Swarmpit, Nginx y Jenkins.</li><li>Mantenimiento de base de datos Oracle.</li><li>Uso de metodologías Agile y principios SOLID.</li><li>Control de versiones con Git.</li>",
     "torrecid2-exp": "<li>Desarrollo y mantenimiento correctivo de aplicaciones web con Angular, Typescript, Javascript y NgZorro como biblioteca de componentes. Uso de Less como lenguaje para las hojas de estilo.</li>",
+    "immedia-exp": "",
     "intern": "Prácticas",
     "may": "Mayo",
     "september": "Septiembre",
     "october": "Octubre",
     "february": "Febrero",
+    "march": "Marzo",
+    "april": "Abril",
     "present": "Actualidad",
     "degree": "Ingeniería informática"
 }

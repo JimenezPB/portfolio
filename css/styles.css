@@ -15,7 +15,7 @@
   }
 }
 
-.options {
+.option-container {
   position: absolute;
   bottom: 10px;
   display: flex;
@@ -28,7 +28,6 @@
   display: flex;
   align-items: center;
   padding-left: 10px;
-  border-left: 1px solid white;
 
   &:hover {
     cursor: pointer;
@@ -123,6 +122,7 @@ body {
     width: 8vh;
     height: 8vh;
     margin-right: 20px;
+    padding: 5px;
   }
 }
 

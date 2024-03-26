@@ -12,29 +12,29 @@
 }
 
 .blue-theme-dark {
-    --primary-100:#0074D9;
-    --primary-200:#5fa2ff;
-    --primary-300:#d1ffff;
-    --accent-100:#7FDBFF;
-    --accent-200:#007a9b;
+    --primary-100:#234361;
+    --primary-200:#516e8f;
+    --primary-300:#b0cdf2;
+    --accent-100:#3E92CC;
+    --accent-200:#003b6c;
     --text-100:#FFFFFF;
     --text-200:#e0e0e0;
-    --bg-100:#001F3F;
-    --bg-200:#162e50;
-    --bg-300:#31466a;
+    --bg-100:#0A192F;
+    --bg-200:#1b283f;
+    --bg-300:#333f58;
 }
 
 .blue-theme-light{
-    --primary-100:#66B2FF;
-    --primary-200:#4295e0;
-    --primary-300:#00579a;
-    --accent-100:#33CCFF;
-    --accent-200:#006d9b;
-    --text-100:#333333;
-    --text-200:#5c5c5c;
-    --bg-100:#E6F2FF;
-    --bg-200:#dce8f5;
-    --bg-300:#b4bfcc;
+    --primary-100:#4682B4;
+    --primary-200:#7ab1e6;
+    --primary-300:#e1ffff;
+    --accent-100:#ADD8E6;
+    --accent-200:#4e7884;
+    --text-100:#FFFFFF;
+    --text-200:#e0e0e0;
+    --bg-100:#87CEEB;
+    --bg-200:#7dc4e1;
+    --bg-300:#549db9;
 }
 
 
